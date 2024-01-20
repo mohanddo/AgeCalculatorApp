@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,700;1,800&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Age calculator app</title>
+  
+</head>
+<body>
+
+  <div class="container">
+    <div style="display: flex;">
+
+      <div>
+        <label for="day">
+          DAY
+        </label>
+        <input id="day" type="number" placeholder="DD">
+        <p class="hidden"></p>      
+      </div>
+
+      <div class="margin-left">
+        <label for="month">
+          MONTH
+        </label>
+        <input id="month" type="number" placeholder="MM">
+        <p class="hidden"></p>
+      </div>
+
+      <div  class="margin-left">
+        <label for="year">
+          YEAR
+        </label>
+        <input id="year" type="number" placeholder="YYYY">
+        <p class="hidden"></p>
+      </div>
+
+    </div>
+
+    <div class="flex margin-top">
+      <hr>
+      <button type="button">
+        <svg xmlns="http://www.w3.org/2000/svg" width="46" height="44" viewBox="0 0 46 44"><g fill="none" stroke="#FFF" stroke-width="2"><path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"/></g></svg>
+      </button>
+    </div>
+
+    <div class="flex">
+      <p class="parallelogram"></p>
+      <p class="parallelogram margin-left"></p>
+      <p class="margin-left big-p">years</p>
+    </div>
+
+    <div class="flex">
+      <p class="parallelogram"></p>
+      <p class="parallelogram margin-left"></p>
+      <p class="margin-left big-p">months</p>
+    </div>
+
+    <div class="flex">
+      <p class="parallelogram"></p>
+      <p class="parallelogram margin-left"></p>
+      <p class="margin-left big-p">days</p>
+    </div>
+
+  </div>
+  <!-- Day
+  DD
+
+  Month
+  MM
+
+  Year
+  YYYY
+
+  -- years
+  -- months
+  -- days -->
+  
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+
+  <script src="js.js"></script>
+</body>
+</html>
